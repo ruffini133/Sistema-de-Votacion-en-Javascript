@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votacion app</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="misEstilos.css">
+</head>
+<body>
+    <div class="pregunta1Flex">
+        <h2>1.- ¿Quién fue el creador de Javascript?</h2>
+        <img id="imagenUcamp" src="imagenes/ucampImage.png" alt="ucamp Imagen" width="300px">
+    </div>
+    <div class="amlo">
+        <p id="AMLO">1.- AMLO</p>
+        <p id="yoMero">2.- Yo Mero</p>
+        <p id="vanRossum">3.- van Rossum</p>
+        <p id="brendanEich">4.- Brendan Eich</p>
+
+    </div>
+    <p id="pregunta1"></p>
+    <button id="boton1" onclick="votar(1, pregunta1)">Votar Opción 1</button>
+    <button id="boton2" onclick="votar(2, pregunta1)">Votar Opción 2</button>
+    <button id="boton3" onclick="votar(3, pregunta1)">Votar Opción 3</button>
+    <button id="boton4" onclick="votar(4, pregunta1)">Votar Opción 4</button>
+    <p>Resultados:</p>
+    <p id="resultado1"></p>
+
+    <h2>¿Qué lenguaje se utiliza para dar estilo a las paginas web?</h2>
+    <div class="displayFlexPregunta2">
+        <p id="php">1.- php</p>
+        <p id="javascript">2.- Javascript</p>
+        <p id="HTML">3.- HTML</p>
+        <p id="CSS">4.- CSS</p>
+    </div>
+    <p id="pregunta2"></p>
+    <button id="boton1_2" onclick="votar(1, pregunta2)">Votar Opción 1</button>
+    <button id="boton2_2" onclick="votar(2, pregunta2)">Votar Opción 2</button>
+    <button id="boton3_2" onclick="votar(3, pregunta2)">Votar Opción 3</button>
+    <button id="boton4_2" onclick="votar(4, pregunta2)">Votar Opción 4</button>
+    <p>Resultados:</p>
+    <p id="resultado2"></p>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+/* Aqui puse mucho codigo porque me falta experiencia, 
+quizas el color amarillo no se ve muy elegante pero opte por colores primarios
+por eso cambie el color por negro porque en el amarillo no se ve el blanco  */
+.amlo{
+    display: flex;
+    margin-left: 10px;
+}
+#AMLO{
+    margin-top: -75px;
+}
+#yoMero{
+    margin-left: 60px;
+    margin-top: -75px;
+}
+#vanRossum{
+    margin-left: 60px;
+    margin-top: -75px;
+}
+#brendanEich{
+    margin-left: 60px;
+    margin-top: -75px;
+}
+#boton1{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#boton2{
+    margin-right: 20px;
+}
+#boton3{
+    margin-right: 20px;
+}
+.displayFlexPregunta2{
+    display: flex;
+    margin-left: 10px;
+}
+#javascript{
+    margin-left: 60px;
+}
+#HTML{
+    margin-left: 60px;
+}
+#CSS{
+    margin-left: 60px;
+}
+#boton1_2{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#boton2_2{
+    margin-right: 20px;
+}
+#boton3_2{
+    margin-right: 20px;
+}
+#boton1:hover{
+    background-color: red;
+    color: white;
+}
+#boton2:hover{
+    background-color: green;
+    color: white;
+}
+#boton3:hover{
+    background-color: purple;
+    color: white;
+}
+#boton4:hover{
+    background-color: yellow;
+}
+#boton1_2:hover{
+    background-color: red;
+    color: white;
+}
+#boton2_2:hover{
+    background-color: green;
+    color: white;
+}
+#boton3_2:hover{
+    background-color: purple;
+    color: white;
+}
+#boton4_2:hover{
+    background-color: yellow;
+}
+#AMLO:hover{
+    color: red;
+}
+#yoMero:hover{
+    color: green;
+}
+#vanRossum:hover{
+    color: purple;
+}
+#brendanEich:hover{
+    color: yellow;
+}
+#php:hover{
+    color: red;
+}
+#javascript:hover{
+    color: green;
+}
+#HTML:hover{
+    color: purple;
+}
+#CSS:hover{
+    color: yellow;
+}
+.pregunta1Flex{
+    display: flex;
+
+}
+#imagenUcamp{
+    margin-left: 540px;
+    z-index: -1;
+}
